@@ -1,6 +1,11 @@
 let accueil = document.getElementById("accueil");
+let accueilriviere = document.getElementById("calotteRiviere");
 
 accueil.addEventListener("click", () => {
-    console.log("test")
-    document.location.href="/Applications/MAMP/htdocs/FIND/Calotte-Namur/index.html";
+    document.location.href="../index.html";
 })
+
+accueilriviere.addEventListener("click", () => {
+    document.location.href="../index.html";
+})
+
